@@ -22,7 +22,7 @@ def create_practice_file():
     We will search for the word 'learning' in this file."""
 
     # Open the file in write mode
-    with open("practice.txt", "w") as file:
+    with open("practice1.txt", "w") as file:
         # Write the content to the file
         file.write(content)
 
@@ -42,7 +42,7 @@ def find_word_in_line():
     line_no = 1
 
     # Open the file in read mode
-    with open("practice.txt", "r") as file:
+    with open("practice1.txt", "r") as file:
         # Loop through each line in the file
         while data_exists:
             # Read a line from the file
