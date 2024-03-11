@@ -1,3 +1,0 @@
-This is a practice file.
-    It contains some text for testing purposes.
-    We will search for the word 'learning' in this file.
