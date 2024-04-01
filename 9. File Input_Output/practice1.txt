@@ -1,3 +1,51 @@
 This is a practice file.
     It contains some text for testing purposes.
     We will search for the word 'learning' in this file.
+
+
+
+
+
+1. **Question:** How do you open a file in Python for reading?
+   - **Answer:** You can open a file for reading using the `open()` function with the mode `'r'`. For example:
+     ```python
+     file = open('filename.txt', 'r')
+     ```
+
+2. **Question:** How can you read the contents of a file in Python?
+   - **Answer:** You can read the contents of a file using methods like `read()`, `readline()`, or `readlines()`. For example:
+     ```python
+     content = file.read()
+     ```
+
+3. **Question:** What is the difference between `read()` and `readlines()` methods when reading from a file?
+   - **Answer:** The `read()` method reads the entire content of the file as a single string, while the `readlines()` method reads the content line by line and returns a list of lines.
+
+4. **Question:** How do you close a file in Python after reading from it?
+   - **Answer:** You can close a file using the `close()` method. For example:
+     ```python
+     file.close()
+     ```
+
+5. **Question:** How do you open a file in Python for writing?
+   - **Answer:** You can open a file for writing using the `open()` function with the mode `'w'`. For example:
+     ```python
+     file = open('filename.txt', 'w')
+     ```
+
+6. **Question:** How can you write to a file in Python?
+   - **Answer:** You can write to a file using methods like `write()` or `writelines()`. For example:
+     ```python
+     file.write("Hello, world!\n")
+     ```
+
+7. **Question:** What happens if you try to open a non-existent file in Python for reading?
+   - **Answer:** If you try to open a non-existent file for reading, Python will raise a `FileNotFoundError` exception.
+
+8. **Question:** How do you handle file closing automatically in Python?
+   - **Answer:** You can use the `with` statement to automatically close the file after performing operations on it. For example:
+     ```python
+     with open('filename.txt', 'r') as file:
+         content = file.read()
+     ```
+
